@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTop-nav");
+        if (x.className === "nav-bar") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav-bar";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar" id="myTop-nav">
+        <ul>
+          <li class="name"><a href="#">Piyush Naithani</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact me</a></li>
+          <li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+              >&#9776;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <h3 class="hello">Hello, folks!!</h3>
+      <h3 class="I_am">I am</h3>
+      <h1>Piyush Naithani!!</h1>
+    </header>
+    <a name="about" href="#"></a>
+
+    <div class="container">
+      <div class="about_me">
+        <h2>About me</h2>
+      </div>
+      <div class="about_content">
+        <p>
+          I am a 3<sup>rd</sup> year undergraduate and currently pursuing a
+          major in Information Technology from ABES Engineering College
+          Ghaziabad, India. I am deeply interested in Algorithms and Web
+          Development. I am a competitive programmer and web developer. I got
+          17<sup>th</sup> rank on CodeChef November long challenge and
+          Specialist on Codeforces. Apart from programming, I have passions of
+          Soccer, learning new things etc.
+        </p>
+      </div>
+    </div>
+    <a name="skills" href="#"></a>
+    <div class="skills_container">
+      <div class="skills">
+        <h2>Skills</h2>
+      </div>
+      <div class="skills_content">
+        <p>
+          I'm a technology enthusiast, problem solver. I code in C++ during
+          competitive programming contest. I have decent skills in front end
+          technology like Reactjs, Bootstrap and Material UI as well as in
+          backend technology Django(Python) and SQL. I have created projects in
+          Reactjs and deploy them on the Firebase.
+        </p>
+        <div class="level_skills"></div>
+      </div>
+    </div>
+
+    <a name="projects" href="#"></a>
+    <div class="projects_container">
+      <div class="projects">
+        <h2>Projects</h2>
+      </div>
+      <div class="projects_content">
+        <ul>
+          <li>
+            <p>
+              <a href="https://chatbot-30d0a.web.app/" target="_blank"
+                ><span class="first"> ChatBot</span></a
+              >
+              , a web chat application using Reactjs with Material UI and
+              Firebase for hosting and database.
+            </p>
+          </li>
+          <li>
+            <p>
+              <a
+                href="https://algorithm-visualizer-24d25.web.app/ "
+                target="_blank"
+                ><span class="first"> Algorithm Visualizer</span></a
+              >, a web application to visualize the algorthim, currently
+              Dijkstra is added using Reactjs and Firebase for hosting.
+            </p>
+          </li>
+          <li>
+            <p>
+              <span class="first"> Word Counter</span>, a web application for
+              counting, sorting, removes punctuations using HTML, CSS and
+              Django.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <a href="#" name="contact"></a>
+    <div class="contact_container">
+      <div class="contact_me">
+        <h2>Contact me</h2>
+      </div>
+      <div class="contact_content">
+        <p>
+          Either way, if you want to say just hello or have an idea and want to
+          collaborate and build some cool stuff, feel free to ping me up.
+        </p>
+        <div class="images">
+          <a
+            href="https://www.linkedin.com/in/piyush-naithani-48314a16b/"
+            target="_blank"
+          >
+            <img class="icons" src="linkedin-logo1.svg" />
+          </a>
+          <a href="https://github.com/lm10-piyush/" target="_blank"
+            ><img class="icons" src="github-logo.svg"
+          /></a>
+
+          <a href="https://codeforces.com/profile/LM10_Piyush" target="_blank">
+            <img class="icons" src="codeforces.svg"
+          /></a>
+          <a href="https://www.codechef.com/users/lm10_piyush" target="_blank">
+            <img class="codechef" src="codechef (1).svg" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
