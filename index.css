@@ -72,7 +72,7 @@ header {
   /* overflow: scroll; */
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 500px) {
   header {
     font-size: 146%;
   }
